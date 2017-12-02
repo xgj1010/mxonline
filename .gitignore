@@ -91,6 +91,6 @@ ENV/
 .ropeproject
 
 database/
-media/
+
 .idea/
 *.sqlite3
