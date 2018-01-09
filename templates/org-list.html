@@ -80,7 +80,7 @@
                                         </a>
                                     </div>
                                     <ul class="cont">
-                                        <li class="first"><p class="pic9">课程数：<span>1</span></p>
+                                        <li class="first"><p class="pic9">课程数：<span>{{ org.course_nums }}</span></p>
                                             <p class="c7">学习人数：<span>1000</span></p></li>
                                         <li class="c8" style="padding-left:18px;">北京市海淀区中关村北大街</li>
                                         <li class="pic10" style="padding-left:18px;">经典课程：
@@ -146,7 +146,7 @@
                 <div class="head">授课机构排名</div>
                 {% for hot_org in hot_orgs %}
                 <dl class="des">
-                    <dt class="num fl">1</dt>
+                    <dt class="num fl">{{ hot_org.id }}</dt>
                     <dd>
                         <a href="/company/2/"><h1>{{ hot_org.name }}</h1></a>
                         <p>{{ hot_org.city }}</p>
